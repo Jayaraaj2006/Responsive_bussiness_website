@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | NovaTech Solutions</title>
+    <meta name="description" content="Explore NovaTech Solutions services including website development, UX design, startup branding, and responsive business website solutions." />
+    <meta name="keywords" content="Startup website services, responsive web design, UX design, business website" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.4/dist/tailwind.min.css" integrity="sha384-F+gEo5xq6ewFm3Vus26d0BM4qLDshYJ7fSdp2hQq/oCC2uJf8H5dJHGI0ua1HPfB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-slate-950 text-slate-100">
+    <header class="bg-slate-900/95 backdrop-blur sticky top-0 z-40 border-b border-slate-800">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+        <a href="index.html" class="text-xl font-semibold tracking-tight text-white">NovaTech</a>
+        <nav class="hidden items-center gap-8 text-slate-200 md:flex">
+          <a href="index.html" class="hover:text-white">Home</a>
+          <a href="about.html" class="hover:text-white">About</a>
+          <a href="services.html" class="hover:text-white">Services</a>
+          <a href="contact.html" class="hover:text-white">Contact</a>
+        </nav>
+        <div class="flex items-center gap-3">
+          <a href="contact.html" class="hidden rounded-full bg-cyan-500 px-5 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400 md:inline-block">Get Started</a>
+          <button id="menu-toggle" class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-200 hover:bg-slate-800 md:hidden" aria-label="Open menu">
+            <svg viewBox="0 0 24 24" class="h-5 w-5 fill-current">
+              <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="hidden border-t border-slate-800 bg-slate-950/95 px-6 py-4 md:hidden">
+        <a href="index.html" class="block py-3 text-slate-200 hover:text-white">Home</a>
+        <a href="about.html" class="block py-3 text-slate-200 hover:text-white">About</a>
+        <a href="services.html" class="block py-3 text-slate-200 hover:text-white">Services</a>
+        <a href="contact.html" class="block py-3 text-slate-200 hover:text-white">Contact</a>
+      </div>
+    </header>
+
+    <main class="space-y-24 pb-16">
+      <section class="mx-auto max-w-6xl px-6 py-16 text-center md:px-8 lg:px-12">
+        <p class="text-sm font-semibold uppercase tracking-[0.35em] text-cyan-300">Services</p>
+        <h1 class="mt-4 text-4xl font-semibold text-white sm:text-5xl">Service packages tailored for early-stage businesses</h1>
+        <p class="mx-auto mt-6 max-w-3xl text-slate-300 sm:text-lg">Choose the right website services to launch a credible online presence, highlight your value, and convert prospects into leads.</p>
+      </section>
+
+      <section class="mx-auto max-w-7xl px-6 md:px-8 lg:px-12">
+        <div class="grid gap-8 lg:grid-cols-3">
+          <article class="rounded-[2rem] border border-slate-800 bg-slate-900/95 p-8 shadow-xl shadow-slate-950/10">
+            <span class="inline-flex rounded-full bg-cyan-500/10 px-3 py-1 text-sm font-semibold text-cyan-300">Web Design</span>
+            <h2 class="mt-6 text-2xl font-semibold text-white">Responsive Website Build</h2>
+            <p class="mt-4 text-slate-300">Custom home, about, services, and contact pages built for desktop and mobile visitors.</p>
+            <ul class="mt-6 space-y-3 text-slate-300">
+              <li>Mobile-first layout</li>
+              <li>CTA-focused homepage</li>
+              <li>Navigation and footer design</li>
+            </ul>
+          </article>
+          <article class="rounded-[2rem] border border-slate-800 bg-slate-900/95 p-8 shadow-xl shadow-slate-950/10">
+            <span class="inline-flex rounded-full bg-cyan-500/10 px-3 py-1 text-sm font-semibold text-cyan-300">Branding</span>
+            <h2 class="mt-6 text-2xl font-semibold text-white">UX & Visual Design</h2>
+            <p class="mt-4 text-slate-300">Modern visual styling with polished colors, icons, and typography to match your startup brand.</p>
+            <ul class="mt-6 space-y-3 text-slate-300">
+              <li>Professional color palette</li>
+              <li>Readable typography</li>
+              <li>Design consistency across pages</li>
+            </ul>
+          </article>
+          <article class="rounded-[2rem] border border-slate-800 bg-slate-900/95 p-8 shadow-xl shadow-slate-950/10">
+            <span class="inline-flex rounded-full bg-cyan-500/10 px-3 py-1 text-sm font-semibold text-cyan-300">Growth</span>
+            <h2 class="mt-6 text-2xl font-semibold text-white">Lead Capture</h2>
+            <p class="mt-4 text-slate-300">Integrated contact form and clear messaging to help visitors reach out and request more information.</p>
+            <ul class="mt-6 space-y-3 text-slate-300">
+              <li>Form validation</li>
+              <li>Strong call-to-action</li>
+              <li>Contact details showcase</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="bg-slate-900/90 py-16">
+        <div class="mx-auto max-w-7xl px-6 md:px-8 lg:px-12">
+          <div class="grid gap-10 lg:grid-cols-2">
+            <div class="rounded-[2rem] border border-slate-800 bg-slate-950/95 p-8 shadow-2xl shadow-slate-950/20">
+              <h2 class="text-3xl font-semibold text-white">Start with a discovery plan</h2>
+              <p class="mt-4 text-slate-300">We outline website goals, audience needs, and page structure before building to ensure the final product helps your business grow.</p>
+              <div class="mt-8 space-y-4 text-slate-300">
+                <p><span class="font-semibold text-white">Discovery:</span> Align website messaging with your startup goals.</p>
+                <p><span class="font-semibold text-white">Design:</span> Build a clean, modern layout with responsive interactions.</p>
+                <p><span class="font-semibold text-white">Launch:</span> Prepare your website for deployment and client-ready presentation.</p>
+              </div>
+            </div>
+            <div class="rounded-[2rem] border border-slate-800 bg-slate-950/95 p-8 shadow-2xl shadow-slate-950/20">
+              <h2 class="text-3xl font-semibold text-white">What makes this site special</h2>
+              <div class="mt-6 space-y-5 text-slate-300">
+                <div class="rounded-3xl bg-slate-900 p-5">
+                  <p class="font-semibold text-white">Modern Layout</p>
+                  <p class="mt-2 text-sm">A polished homepage and clear service sections that communicate your offering fast.</p>
+                </div>
+                <div class="rounded-3xl bg-slate-900 p-5">
+                  <p class="font-semibold text-white">Flexible Content</p>
+                  <p class="mt-2 text-sm">Sections can be updated for any business service, product launch, or portfolio showcase.</p>
+                </div>
+                <div class="rounded-3xl bg-slate-900 p-5">
+                  <p class="font-semibold text-white">Built for Speed</p>
+                  <p class="mt-2 text-sm">Clean HTML and Tailwind styling keep page performance strong.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-800 bg-slate-950/90 py-10">
+      <div class="mx-auto flex max-w-7xl flex-col gap-6 px-6 md:flex-row md:items-center md:justify-between md:px-8 lg:px-12">
+        <p class="text-sm text-slate-400">© 2026 NovaTech Solutions. All rights reserved.</p>
+        <div class="flex flex-wrap gap-4 text-slate-300">
+          <a href="index.html" class="hover:text-white">Home</a>
+          <a href="about.html" class="hover:text-white">About</a>
+          <a href="services.html" class="hover:text-white">Services</a>
+          <a href="contact.html" class="hover:text-white">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
