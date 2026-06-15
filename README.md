@@ -45,9 +45,35 @@ cd Responsive_bussiness_website
 - Navigate with the header menu on desktop and mobile.
 - Submit the contact form on `contact.html` to see client-side validation.
 
-## Deployment
-This project can be deployed using GitHub Pages by enabling Pages in the repository settings and selecting the root branch.
+## Deployment to GitHub Pages
+
+### Step 1: Ensure all changes are committed to Git
+```bash
+git add .
+git commit -m "Final version ready for deployment"
+git push origin main
+```
+
+### Step 2: Enable GitHub Pages
+1. Go to your repository on GitHub
+2. Navigate to **Settings** → **Pages**
+3. Under "Build and deployment", select:
+   - **Source**: Deploy from a branch
+   - **Branch**: main (or master)
+   - **Folder**: / (root)
+4. Click **Save**
+
+### Step 3: Access your live site
+Your website will be available at:
+```
+https://Jayaraaj2006.github.io/Responsive_bussiness_website/
+```
+
+The deployment typically completes within 1-2 minutes.
 
 ## Notes
-- The contact form includes frontend validation only.
-- Tailwind CSS is included through a CDN import for quick setup.
+- The contact form includes frontend validation only (no backend processing).
+- Tailwind CSS is loaded from CDN (cdn.tailwindcss.com) for development.
+  - For production deployment with optimized CSS, follow the [Tailwind CSS installation guide](https://tailwindcss.com/docs/installation).
+- All pages are fully responsive and mobile-optimized.
+- SEO-friendly with meta tags on all pages.
